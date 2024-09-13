@@ -20,6 +20,6 @@ jobs:
     - name: Build the Docker image
       run: docker build -t first_container . 
     - name: Tagging image
-      run: docker tag first_containere:latest nikin2204/first_containere:latest
+      run: docker tag first_container:latest nikin2204/first_container:latest
     - name: Push to Dockerhub
-      run: docker push nikin2204/first_containere:latest
+      run: docker push nikin2204/first_container:latest
