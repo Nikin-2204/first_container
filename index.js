@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
-const port = 3000; // Cổng mà ứng dụng sẽ lắng nghe
+const port = 8080; // Cổng mà ứng dụng sẽ lắng nghe
 
 // Tạo một route đơn giản trả về "Hello World!"
 app.get('/', (req, res) => {
-  res.send('Hello World223!');
+  res.json({
+    status:200,
+    message: "Hello so lyly"
+  });
 });
 
 // Khởi động máy chủ và lắng nghe trên cổng đã chỉ định
