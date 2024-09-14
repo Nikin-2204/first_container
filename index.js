@@ -6,7 +6,7 @@ const port = 8080; // Cổng mà ứng dụng sẽ lắng nghe
 app.get('/', (req, res) => {
   res.json({
     status:200,
-    message: "Hello so lyly"
+    message: "Hello so lyly update 1234556"
   });
 });
 
